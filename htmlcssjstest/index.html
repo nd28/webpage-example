@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./main.css">
+  <!--
+  <link rel="javascript" href="./main.js">
+  -->
+  <meta name="name" content="content" />
+  
+  <style type="text/css" media="screen">
+    
+  </style>
+  
+  
+</head>
+<body id="App">
+  <div style="width:100vw; height:100vh;" class="d-flex a-s">
+    
+  <div id="bluebox" class="box round-30 blueviolet mt-10">
+    
+  </div>
+  
+  </div>
+  <button type="button" name="hide box" value="hide box" onclick="onHide()" 
+  style="
+    position: absolute;
+bottom: 10;
+right: 20;
+  ">
+  Hide Box
+  </button>
+  
+  <script type="text/javascript">
+    const onHide = () => {
+      document.querySelector("#bluebox").style.display = "none"
+    }
+  </script>
+</body>

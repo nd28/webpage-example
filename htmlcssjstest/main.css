@@ -1,0 +1,32 @@
+body{
+      margin:0;
+    }
+    .box {
+      background: darkgrey;
+      height: 200px;
+      width: 200px;
+    }
+    .blueviolet {
+      background: blueviolet;
+    }
+    .blueviolet 40{
+      opacity: 40%;
+    }
+    .blueviolet 80{
+      opacity: 80%;
+    }
+    .round-30 {
+      border-radius: 30%
+    }
+    .d-flex {
+      display:flex;
+      justify-content:center;
+      align-items:flex-start;
+    }
+.a-s {
+  align-items:flex-start;
+}
+.mt-10 {
+  margin-top: 10px;
+  
+}

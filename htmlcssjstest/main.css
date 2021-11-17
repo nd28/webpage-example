@@ -9,12 +9,14 @@ body{
     .blueviolet {
       background: blueviolet;
     }
+    /*
     .blueviolet 40{
       opacity: 40%;
     }
     .blueviolet 80{
       opacity: 80%;
     }
+    */
     .round-30 {
       border-radius: 30%
     }
